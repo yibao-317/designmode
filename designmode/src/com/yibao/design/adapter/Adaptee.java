@@ -4,12 +4,10 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 /**
- * 适配器模式
- *
  * @author liyi
- * @create 2021 -06 -28 -15:40
+ * @create 2021 -07 -12 -22:36
  */
-public class Adaptee {  // 被适配的类 【想象成 "网线"】
+public class Adaptee {
     public void surf() {
         System.out.println("这是网线，提供上网的功能...");
     }
@@ -60,4 +58,3 @@ class Test {
 
     }
 }
-
